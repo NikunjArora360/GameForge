@@ -1,0 +1,33 @@
+{
+  "name": "gameforge-toolkit",
+  "version": "0.1.0",
+  "description": "Open-source toolkit of reusable systems and utilities for indie game developers.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./inventory": "./src/inventory.js",
+    "./quests": "./src/quests.js",
+    "./achievements": "./src/achievements.js",
+    "./game-state": "./src/gameState.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "game-development",
+    "gamedev",
+    "indie-game",
+    "game-tools",
+    "open-source"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NikunjArora360/GameForge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NikunjArora360/GameForge/issues"
+  },
+  "homepage": "https://github.com/NikunjArora360/GameForge"
+}
